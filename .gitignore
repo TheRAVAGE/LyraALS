@@ -16,6 +16,9 @@ Content/**
 # Re-allow the Blueprints folder
 !Content/Blueprints/
 !Content/Blueprints/**
+!Content/ALS/
+!Content/ALS/Blueprints/
+!Content/ALS/Blueprints/**
 
 
 # Ignore user-specific settings
