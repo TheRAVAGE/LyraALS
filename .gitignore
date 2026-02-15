@@ -1,0 +1,33 @@
+# Unreal Engine folders to ignore
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vscode/
+.vs/
+.idea/
+
+# Ignore everything under Content
+Content/**
+
+# Re-allow Content itself
+!Content/
+
+# Re-allow the Blueprints folder
+!Content/Blueprints/
+!Content/Blueprints/**
+
+
+# Ignore user-specific settings
+*.suo
+*.user
+*.userprefs
+*.sln
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.vsconfig
+
+# Ignore config files that shouldn't be shared
+Config/DefaultEditor.ini
+Config/DefaultEditorPerProjectUserSettings.ini
